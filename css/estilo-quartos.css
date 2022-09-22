@@ -1,0 +1,46 @@
+.img-topo {
+  width: 100%;
+  height: 200px;
+  background-image: url(../assets/img-fundo.jpg);
+  background-size: cover;
+}
+
+.imagens {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 5%;
+  flex-wrap: wrap;
+  width: 90%;
+  text-align: center;
+  
+}
+
+.imagens div {
+  flex: 1 1 210px;
+  margin: 15px;
+}
+
+.imagens div img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.lista {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.lista ul {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista ul li {
+  flex-direction: column;
+  margin: 10px ;
+  padding: 10px;
+}
